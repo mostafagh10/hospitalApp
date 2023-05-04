@@ -1,0 +1,9 @@
+.loginoption{
+    width: 80%;
+    margin-left: 40px;
+}
+@media (max-width:767px){
+    .loginoption{
+        margin-left: 0px;
+    }
+}

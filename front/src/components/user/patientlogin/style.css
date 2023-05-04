@@ -1,0 +1,36 @@
+.loginbody{
+    background-color: #edf2f5;
+    margin: 0;
+}
+.loginn{
+    padding: 30px;
+    margin-top: 40px;
+}
+.loginlabel{
+    font-size: 20px;
+    font-weight: bold;
+}
+.logininput{
+    width: 70%;
+    height: 50px;
+    padding: 10px;
+    background-color: #edf2f5;
+}
+.loginbutton{
+    width: 70%;
+}
+.loginforget{
+    text-align: center;
+    width: 70%;
+}
+@media(max-width:767px) {
+    .logininput,.loginbutton,.loginforget{
+        width: 100%;
+    }
+    .loginlabel{
+        font-size: 15px !important;
+    }
+    .userlogin h1{
+        font-size: 25px;
+    }
+}
